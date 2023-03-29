@@ -1,13 +1,573 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: 'Roboto', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  width: 100vw;
+}
+
+header{
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0b563a33;
+}
+
+.links{
+  padding: 2rem;
+}
+
+.Link{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+  margin: 1rem;
+}
+
+
+.Main{
+}
+
+
+/* Fondo */
+.infoFondo{
+  background: url(../images/football-soccer-ball-goal.jpg);
+  background-size: cover;
+  height: 45rem;
+  text-align: center;
+}
+
+.nombreFondo{
+  padding-top: 7rem;
+  font-size: 10rem;
+  color: white;
+}
+
+.peFondo{
+  font-size: 3rem;
+  color: white;
+}
+
+/* DespuesFondo */
+.despuesFondo{
+  height: 33rem;
+  display: flex;
+  justify-content: center;
+}
+
+.border{
+  margin: 2rem;
+  padding: 2rem;
+  border-top-style: double;
+  border-left-style: double;
+  border-right-style: double;
+  border-bottom-style: double;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img{
+  width: 20rem;
+  height: 10rem;
+  border-radius: 19rem;
+  padding: 3rem;
+}
+
+.h1DespuesDeFondo{
+  font-size: 5rem;
+}
+
+.peDespues{
+  font-size: 2rem;
+}
+
+/* Sugerencias */
+.sugerencias{
+  background: #0b563a33;
+  margin: 3rem;
+  height: 40rem;
+  border-radius: 10px;
+}
+
+.h1Sugerencias{
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 3rem;
+}
+
+.content{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.inputsSugerencias{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.nameS{
+  width: 30rem;
+  height: 2rem;
+  margin-bottom: 0.5em;
+}
+
+.TeleS{
+  height: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.EmailS{
+  height: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.Mensaje{
+  height: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+.btnsug{
+  background-color: #000000;
+  color: white;
+  height: 3.5rem;
+}
+
+.Pes{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
+.cardtodo{
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #0b563a33;
+}
+
+.card-container{
+  width: 250px;
+  overflow: hidden;
+  box-shadow: 0px 15px 15px 0px;
+  transition: 0.5s;
+  animation: ease-in;
+  margin: 1rem;
+  margin-left: 1rem;
+}
+
+.card-container :hover{
+  transform: scale(1,1.1);
+  box-shadow: 0px 0px 4px 0px;
+}
+
+.imge-container{
+  display: flex;
+  overflow: hidden;
+  height: 320px;
+}
+
+.card-content{
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+
+h3,p{
+  margin: 0;
+  padding: 0;
+}
+
+.card-title{
+  margin-top: -2rem;
+  margin-bottom: 0.5rem;
+}
+
+.containerfot{
+  text-align: center;
+}
+
+.Pefot a {
+  text-decoration: none;
+  color: black;
+}
+
+.Redes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedorTodo{
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.cajaTrasera{
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #09F59F;
+
+}
+
+.cajaTrasera div{
+  margin: 100px 40px;
+  color: #000000;
+  transition: all 500ms;
+}
+
+
+
+.cajaTrasera div p,
+.cajaTrasera button{
+  margin-top: 30px;
+}
+
+.cajaTrasera div h3{
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.cajaTrasera div p{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.cajaTrasera button{
+  padding: 10px 40px;
+  border: 2px solid #fff;
+  font-size: 14px;
+  background: transparent;
+  font-weight: 600;
+  cursor: pointer;
+  color: #000000;
+  outline: none;
+  transition: all 300ms;
+}
+
+.cajaTrasera button:hover{
+  background: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+/*Formularios*/
+
+.contenedorLogin{
+  display: block;
+  align-items: center;
+  width: 100%;
+  max-width: 380px;
+  position: relative;
+  top: -185px;
+  left: 10px;
+
+  /*La transicion va despues del codigo JS*/
+  transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+.contenedorRegister{
+  display: none;
+  align-items: center;
+  width: 100%;
+  max-width: 380px;
+  position: relative;
+  top: -185px;
+  left: 10px;
+
+  /*La transicion va despues del codigo JS*/
+  transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+
+.contenedorLogin form{
+  
+  width: 100%;
+  padding: 80px 20px;
+  background: white;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.contenedorLogin form h2{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.contenedorLogin form input{
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background: #F2F2F2;
+  font-size: 16px;
+  outline: none;
+}
+
+.contenedorLogin form button{
+  padding: 10px 40px;
+  margin-top: 40px;
+  border: none;
+  font-size: 14px;
+  background: #000000;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  outline: none;
+}
+
+/* .contenedor__login-register form a{
+  padding: 10px 40px;
+  margin-top: 50px;
+  border: none;
+  font-size: 14px;
+  background: #46A2FD;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  outline: none;
+} */
+
+
+
+
+.contenedorRegister form{
+  width: 95%;
+  padding: 80px 20px;
+  background: white;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.contenedorRegister form h2{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.contenedorRegister form input{
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background: #F2F2F2;
+  font-size: 16px;
+  outline: none;
+}
+
+.contenedorRegister form button{
+  padding: 10px 40px;
+  margin-top: 40px;
+  border: none;
+  font-size: 14px;
+  background: #000000;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  outline: none;
+}
+
+
+
+.formularioLogin{
+  display: block;
+  margin-top: -13rem;
+  opacity: 1;
+
+}
+.formularioRegister{
+  display: block;
+}
+
+
+
+@media screen and (max-width: 850px){
+
+  main{
+      margin-top: 50px;
+  }
+
+  .cajaTrasera{
+      max-width: 350px;
+      height: 300px;
+      flex-direction: column;
+      margin: auto;
+  }
+
+  .cajaTrasera div{
+      margin: 0px;
+      position: absolute;
+  }
+
+
+  /*Formularios*/
+
+  .contenedorLogin{
+      top: -10px;
+      left: -5px;
+      margin: auto;
+  }
+
+  .contenedorLogin form{
+      position: relative;
+  }
+}
+
+  .contenedorRegister{
+      top: -28rem;
+      left: -5px;
+      margin: auto;
+  }
+
+  .contenedorRegister form{
+      position: relative;
+  }
+
+
+
+nav ul li a {
+  text-decoration: none;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding:10px;
+  border-radius: 1px;
+}
+
+
+/* 
+.parche {
+  margin: 2px;
+  padding: 10px 40px;
+  margin-top: 40px;
+  border: none;
+  font-size: 14px;
+  background: #46A2FD;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  outline: none;
+} */
+
+#logo{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  width: 28rem;
+  height: 16em;
+}
+
+
+/* pruebad paneles */
+.newLogin{
+  display: none;
+  margin-top: -13rem;
+  justify-content: flex-end;
+  left: 380px;
+}
+
+.newRegister{ 
+  /* display: block;
+  justify-content: flex-end;
+  align-items: center;
+  left: 23rem; */
+  display: block;
+  align-items: center;
+  width: 100%;
+  max-width: 380px;
+  position: relative;
+  top: 0.2rem;
+  left: 12.2rem;
+}
+
+.newContent{
+  display: block;
+}
+
+
+
+.NombreCan{
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+/* .Sugerencias{
+  margin-top: 55rem;
+} */
+
+
+
+
+::-webkit-input-placeholder{
+  text-align: center;
+  color: #000000;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.row-text-center{
+  display: flex;
+  margin-right: 28rem;
+}
+
+.col-sm-3{
+  margin-right: 4rem;
+  height: 50rem;
+  width: 25rem;
+}
+
+.title{
+  margin: 3rem;
+  font-size: 3rem;
 }
