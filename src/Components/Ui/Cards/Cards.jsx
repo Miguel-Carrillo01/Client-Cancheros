@@ -17,8 +17,8 @@ export const Cards = () => {
         <p>Miguel, es el font de el aplicativo.</p>
     </div>
     <div className='Redes'>
-    <ul><li><a href="#"><FaFacebookF/></a></li></ul>
-    <ul><li><a href="#"><FaInstagram/></a></li></ul>
+    <ul><li><a href="https://www.facebook.com/miguel.carrillo.1884787?mibextid=LQQJ4d"><FaFacebookF/></a></li></ul>
+    <ul><li><a href="https://instagram.com/m_carri.04?igshid=YmMyMTA2M2Y="><FaInstagram/></a></li></ul>
     </div>
       </div>
       </div>
@@ -33,14 +33,14 @@ export const Cards = () => {
         <p>Miguel, es el font de el aplicativo.</p>
     </div>
     <div className='Redes'>
-    <ul><li><a href="#"><FaFacebookF/></a></li></ul>
-    <ul><li><a href="#"><FaInstagram/></a></li></ul>
+    <ul><li><a href="https://www.facebook.com/juancamilo.cer?mibextid=LQQJ4d"><FaFacebookF/></a></li></ul>
+    <ul><li><a href="https://instagram.com/juan.camix?igshid=YmMyMTA2M2Y="><FaInstagram/></a></li></ul>
     </div>
       </div>
       </div>
       <div className='card-container'>
       <div className='imge-container'>
-        <img src="https://res.cloudinary.com/dptohgiiu/image/upload/v1680049721/FondoCan_vjdfgu.jpg" alt="" />
+        <img src="https://res.cloudinary.com/dptohgiiu/image/upload/v1680120315/Angel_p7h6sh.jpg" alt="" />
       </div>
       <div className='card-content'>
         <div className='card-title'>
@@ -50,8 +50,8 @@ export const Cards = () => {
     </div>
 
     <div className='Redes'>
-    <ul><li><a href="#"><FaFacebookF/></a></li></ul>
-    <ul><li><a href="#"><FaInstagram/></a></li></ul>
+    <ul><li><a href="https://www.facebook.com/angel.alvarez.1253236?mibextid=LQQJ4d"><FaFacebookF/></a></li></ul>
+    <ul><li><a href="https://instagram.com/its.angelo12?igshid=YmMyMTA2M2Y="><FaInstagram/></a></li></ul>
     </div>
 
       </div>
@@ -68,8 +68,8 @@ export const Cards = () => {
     </div>
 
     <div className='Redes'>
-    <ul><li><a href="#"><FaFacebookF/></a></li></ul>
-    <ul><li><a href="#"><FaInstagram/></a></li></ul>
+    <ul><li><a href="https://www.facebook.com/profile.php?id=100077266962946&mibextid=LQQJ4d"><FaFacebookF/></a></li></ul>
+    <ul><li><a href="https://instagram.com/andres__candela?igshid=YmMyMTA2M2Y="><FaInstagram/></a></li></ul>
     </div>
 
       </div>
@@ -85,8 +85,8 @@ export const Cards = () => {
         <p>Miguel, es el font de el aplicativo.</p>
     </div>
     <div className='Redes'>
-    <ul><li><a href="#"><FaFacebookF/></a></li></ul>
-    <ul><li><a href="#"><FaInstagram/></a></li></ul>
+    <ul><li><a href="https://www.facebook.com/jamesdaniel.betancourt?mibextid=LQQJ4d"><FaFacebookF/></a></li></ul>
+    <ul><li><a href="https://instagram.com/soy_jamess?igshid=YmMyMTA2M2Y="><FaInstagram/></a></li></ul>
     </div>
 
       </div>

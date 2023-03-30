@@ -14,7 +14,7 @@ export const MainLogin = () => {
 
 
 return (
-    <main> 
+    <main className='MainLogin'> 
         <div className='contenedorTodo' >
             <div className='cajaTrasera'>
                 <div className='cajaTraseraLogin'>
